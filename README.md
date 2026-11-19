@@ -1,14 +1,11 @@
-# ShiftLog support website
+# ShiftLog website
 
-Official website, support and privacy policy for ShiftLog / 排班記 / 排班记 / シフト手帳 / 근무수첩 / Schichtbuch.
+Static GitHub Pages site for ShiftLog. The product pages are plain HTML and work without JavaScript. They use a shared stylesheet and localized screenshots.
 
-Static GitHub Pages site. No build dependencies, external fonts, analytics, ads, authentication or tracking cookies.
+- English at the root, with `zh-tw.html`, `ja.html`, `ko.html`, and `de.html` as alternate locales. Keep each page's canonical URL and reciprocal language links in sync.
+- `rotating-shift-tw.html` explains the 2-on, 2-off rotation in Traditional Chinese.
+- `sitemap.xml` lists the product pages and rotation guide.
+- Existing support and privacy URLs still use `?lang=`. Old homepage language URLs redirect to the corresponding product pages.
+- Download buttons use App Store Connect campaign links. The website uses no third-party tracking scripts or tracking cookies.
 
-- Overview: `index.html`
-- Support: `support.html`
-- Privacy: `privacy.html`
-- Language: `?lang=en`, `zh-TW`, `zh-CN`, `ja`, `ko`, `de`
-
-Enable GitHub Pages from the main branch, repository root.
-
-Please do not include personal records or credentials in public issues.
+GitHub Pages publishes the support repository's main branch from its root.
